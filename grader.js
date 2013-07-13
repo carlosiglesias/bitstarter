@@ -39,7 +39,6 @@ var checkURL = function(url, checksfile) {
     for (var ii in checks) {
 	var present = $(checks[ii]).length > 0;
 	out[checks[ii]] = present;
-	console.log(out[checks[ii]]);
     }
     return out;
 }
